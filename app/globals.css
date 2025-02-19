@@ -100,7 +100,7 @@
     }
 
     .animate-bounce-marquee {
-        animation: bounceMarquee 12s infinite alternate;
+        animation: bounceMarquee 8s infinite alternate;
     }
     .AccordionItem {
         overflow: hidden;
