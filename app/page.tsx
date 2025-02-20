@@ -140,7 +140,7 @@ export default function Page() {
             <div className="absolute inset-1 flex items-center justify-center cursor-wait">
               <div className="flex animate-bounce-marquee">
                 {[...icons, ...icons].map((Icon, index) => (
-                  <Icon key={index} className="text-4xl mx-20" />
+                  <Icon key={index} className="text-5xl mx-20" />
                 ))}
               </div>
             </div>
