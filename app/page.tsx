@@ -119,10 +119,10 @@ export default function Page() {
                 className="object-contain rounded-xl transition-opacity duration-300 group-hover:opacity-90"
               />
               <div className="absolute bottom-0 left-0 p-2 sm:p-4">
-                <h3 className="text-xs text-white font-medium transition-colors duration-300 group-hover:text-indigo-300 dark:text-white dark:group-hover:text-indigo-400 sm:text-sm">
+                <h3 className="text-xs text-white font-medium transition-colors duration-300 group-hover:text-red-300 dark:text-white dark:group-hover:text-red-400 sm:text-sm">
                   neroices...
                 </h3>
-                <p className="text-[10px] text-gray-400 transition-colors duration-300 group-hover:text-indigo-400 dark:text-gray-400 dark:group-hover:text-indigo-300 sm:text-xs">
+                <p className="text-[10px] text-gray-400 transition-colors duration-300 group-hover:text-red-400 dark:text-gray-400 dark:group-hover:text-red-300 sm:text-xs">
                   ねろ
                 </p>
               </div>
