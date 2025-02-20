@@ -178,7 +178,7 @@ export default function Page() {
             </Link>
           </div>
 
-          <div className="col-span-3 md:w-50 sm:w-50 aspect-[4/1] rounded-full bg-black p-5 transition-all duration-300 hover:bg-gray-800 hover:shadow-lg  dark:hover:bg-neutral-300 sm:p-4 xs:aspect-[3/1] dark:bg-white">
+          <div className="col-span-3 md:w-50 sm:w-50 aspect-[4/1] rounded-full bg-black p-5 transition-all duration-300 hover:bg-neutral-800 hover:shadow-lg  dark:hover:bg-neutral-300 sm:p-4 xs:aspect-[3/1] hover:scale-105 cursor-grab dark:bg-white">
             <div className="flex h-full w-full items-center justify-center">
               <span className="font-mono font-bold text-m text-pink-500 dark:text-pink-600">
                 {">"}
