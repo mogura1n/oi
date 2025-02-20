@@ -240,26 +240,27 @@ export default function Page() {
                   </AccordionItem>
                   <AccordionItem className="AccordionItem" value="item-2">
                     <AccordionTrigger className="text-m transition-colors duration-300 hover:text-gray-600 dark:hover:text-gray-200">
-                      what is your current job title?
+                      how can i reach you?
                     </AccordionTrigger>
                     <AccordionContent className="text-xs">
-                      i'm unemployed.
+                      carrier pigeons are unreliable, so try to click that
+                      email, or x icon.
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem className="AccordionItem" value="item-3">
                     <AccordionTrigger className="text-m transition-colors duration-300 hover:text-gray-600 dark:hover:text-gray-200">
-                      what are your key skills?
+                      are you a coffee or tea person?
                     </AccordionTrigger>
                     <AccordionContent className="text-xs">
-                      i don't know about it :)
+                      none of em :))
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem className="AccordionItem" value="item-4">
                     <AccordionTrigger className="text-m transition-colors duration-300 hover:text-gray-600 dark:hover:text-gray-200">
-                      what are your favorite hobbies?
+                      any last words of wisdom?
                     </AccordionTrigger>
                     <AccordionContent className="text-xs">
-                      watching memes, playing games.
+                      with hardship comes ease.
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
