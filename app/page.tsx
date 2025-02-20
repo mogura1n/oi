@@ -282,15 +282,15 @@ export default function Page() {
           </div>
 
           <div className="group aspect-square rounded-full bg-red-500 p-2 transition-all duration-300 hover:bg-red-600 hover:shadow-lg dark:bg-red-800 dark:hover:bg-red-900 sm:p-4">
-            <div className="flex h-full items-center justify-center">
-              <Link
-                href="https://github.com/sponsors/neroices"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <Link
+              href="https://github.com/sponsors/neroices"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex h-full items-center justify-center">
                 <FaRegHeart className="h-8 w-8 text-white transition-transform duration-300 group-hover:scale-110" />
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
 
