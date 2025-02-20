@@ -16,7 +16,7 @@ import {
 import { LuGlobe, LuSun, LuMoon } from "react-icons/lu";
 import { FiGithub, FiGitlab, FiShield } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import {
   Accordion,
   AccordionContent,
@@ -148,12 +148,12 @@ export default function Page() {
 
           <div className="group aspect-square rounded-full bg-white p-2 transition-all duration-300 hover:scale-110 dark:bg-neutral-800 sm:p-4">
             <Link
-              href="https://xdaforums.com/m/neroices.10996241/"
+              href="https://x.com/letsmakeices"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="flex h-full items-center justify-center text-black dark:text-white">
-                <SiXdadevelopers className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
+                <FaXTwitter className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
               </div>
             </Link>
           </div>
@@ -168,12 +168,12 @@ export default function Page() {
 
           <div className="group aspect-square rounded-full bg-black text-white hover:text-black hover:bg-white p-2 transition-all duration-300 hover:shadow-lg dark:bg-white dark:hover:bg-neutral-800 dark:hover:text-white dark:text-black sm:p-4">
             <Link
-              href="https://slce.moe"
+              href="mailto:git@slce.moe"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="flex h-full items-center justify-center">
-                <LuGlobe className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
+                <MdOutlineEmail className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
               </div>
             </Link>
           </div>
@@ -203,10 +203,16 @@ export default function Page() {
 
           <div className="grid aspect-square grid-cols-2 gap-1">
             {[
-              { Icon: FaXTwitter, link: "https://x.com/letsmakeices" },
-              { Icon: FiGithub, link: "https://github.com/neroices" },
-              { Icon: FiGitlab, link: "https://gitlab.com/neroices" },
-              { Icon: MdOutlineEmail, link: "mailto:git@slce.moe" },
+              { Icon: FiShield, link: "https://nextdns.io/?from=bskxrt52" },
+              {
+                Icon: SiGnuprivacyguard,
+                link: "https://keys.openpgp.org/vks/v1/by-fingerprint/DA88956A14A8224FC7D0C1ABB2AC74F978F9A703",
+              },
+              {
+                Icon: SiXdadevelopers,
+                link: "https://xdaforums.com/m/neroices.10996241",
+              },
+              { Icon: LuGlobe, link: "https://slce.moe" },
             ].map(({ Icon, link }, index) => (
               <a
                 key={index}
@@ -262,21 +268,25 @@ export default function Page() {
           </div>
 
           <div className="group aspect-square rounded-full bg-white p-2 transition-all duration-300 hover:scale-110 dark:bg-neutral-800 sm:p-4">
-            <Link href="https://keys.openpgp.org/vks/v1/by-fingerprint/DA88956A14A8224FC7D0C1ABB2AC74F978F9A703">
+            <Link
+              href="https://github.com/neroices"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="flex h-full items-center justify-center space-x-1">
-                <SiGnuprivacyguard className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
+                <FiGithub className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
               </div>
             </Link>
           </div>
 
           <div className="group aspect-square rounded-full bg-white p-2 transition-all duration-300 hover:shadow-lg dark:bg-neutral-800 sm:p-4">
             <Link
-              href="https://nextdns.io/?from=bskxrt52"
+              href="https://gitlab.com/neroices"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="flex h-full items-center justify-center text-black dark:text-white">
-                <FiShield className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
+                <FiGitlab className="h-8 w-8 transition-transform duration-300 group-hover:scale-110" />
               </div>
             </Link>
           </div>
