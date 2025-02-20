@@ -94,14 +94,24 @@
         0% {
             transform: translateX(0%);
         }
-        100% {
+        25% {
+            transform: translateX(25%);
+        }
+        50% {
             transform: translateX(50%);
+        }
+        75% {
+            transform: translateX(25%);
+        }
+        100% {
+            transform: translateX(0%);
         }
     }
 
     .animate-bounce-marquee {
-        animation: bounceMarquee 8s infinite alternate;
+        animation: bounceMarquee 15s linear infinite;
     }
+
     .AccordionItem {
         overflow: hidden;
         border: none;
