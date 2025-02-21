@@ -99,7 +99,7 @@ export default function Page() {
             >
               <div className="relative h-full w-full">
                 <Image
-                  src="/img/oishine.png"
+                  src="/img/oishine.svg"
                   alt="oishine"
                   fill
                   className="object-contain rounded-full transition-opacity group-hover:opacity-80"
