@@ -216,7 +216,7 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="group flex aspect-square items-center justify-center rounded-xl bg-[#d1d1d1] transition-all duration-300 hover:bg-gray-300 dark:bg-neutral-700 dark:hover:bg-neutral-600"
               >
-                <Icon className="h-3 w-3 transition-transform duration-300 group-hover:scale-125 dark:text-white sm:h-5 sm:w-5" />
+                <Icon className="h-4 w-4 transition-transform duration-300 group-hover:scale-125 dark:text-white sm:h-5 sm:w-5" />
               </a>
             ))}
           </div>
