@@ -102,7 +102,7 @@ export default function Page() {
                   src="/img/oishine.svg"
                   alt="oishine"
                   fill
-                  className="object-contain rounded-full transition-opacity group-hover:opacity-80"
+                  className="object-contain rounded-full transition-opacity group-hover:opacity-80 dark:invert"
                 />
               </div>
             </Link>
@@ -116,7 +116,7 @@ export default function Page() {
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
                 fill
-                className="object-contain rounded-xl transition-opacity duration-300 group-hover:opacity-90"
+                className="object-contain rounded-xl transition-opacity duration-300 group-hover:opacity-90 dark:invert"
               />
               <div className="absolute bottom-0 left-0 p-2 sm:p-4">
                 <h3 className="text-xs text-white font-medium transition-colors duration-300 group-hover:text-red-300 dark:text-white dark:group-hover:text-red-400 sm:text-sm">
