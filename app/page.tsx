@@ -183,7 +183,7 @@ export default function Page() {
           <div className="group col-span-2 aspect-[2/1] rounded-3xl bg-white dark:bg-neutral-800 hover:scale-105 transition-all duration-300 hover:bg-gray-900 hover:shadow-lg dark:hover:bg-neutral-700 flex items-center justify-center">
             <div className="relative h-full w-full cursor-cell">
               <Image
-                src="/assets/tree.webp"
+                src="/assets/sky.webp"
                 alt="neroices"
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
