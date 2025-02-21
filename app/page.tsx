@@ -99,7 +99,7 @@ export default function Page() {
             >
               <div className="relative h-full w-full">
                 <Image
-                  src="/img/oishine.svg"
+                  src="/assets/oishine.svg"
                   alt="oishine"
                   fill
                   className="object-contain rounded-full transition-opacity group-hover:opacity-80 dark:invert"
@@ -111,7 +111,7 @@ export default function Page() {
           <div className="group p-4 col-span-3 aspect-[3/3] rounded-3xl bg-white transition-all duration-300 hover:scale-105 dark:bg-neutral-800 xs:col-span-4 xs:aspect-[2/1] sm:col-span-2 sm:row-span-2 sm:aspect-square sm:p-4">
             <div className="relative h-full w-full cursor-cell">
               <Image
-                src="/img/oi.svg"
+                src="/assets/oi.svg"
                 alt="me"
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
@@ -191,7 +191,7 @@ export default function Page() {
           <div className="group col-span-2 aspect-[2/1] rounded-3xl bg-white dark:bg-neutral-800 hover:scale-105 transition-all duration-300 hover:bg-gray-900 hover:shadow-lg dark:hover:bg-neutral-700 flex items-center justify-center">
             <div className="relative h-full w-full cursor-cell">
               <Image
-                src="/img/tree.webp"
+                src="/assets/tree.webp"
                 alt="neroices"
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
