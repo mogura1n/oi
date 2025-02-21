@@ -191,6 +191,9 @@ export default function Page() {
                 className="object-cover rounded-3xl group-hover:opacity-80"
               />
             </div>
+            <div className="absolute flex items-center justify-center text-white text-xs font-medium">
+              neroices.
+            </div>
           </div>
 
           <div className="grid aspect-square grid-cols-2 gap-1">
