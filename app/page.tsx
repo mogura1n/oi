@@ -299,18 +299,9 @@ export default function Page() {
             </Link>
           </div>
         </div>
-
         <div className="mt-4 flex justify-between font-mono text-xs tracking-wider text-gray-800 transition-colors duration-300 dark:text-gray-200 sm:mt-8 sm:text-sm">
           <span>&copy; 2025</span>
-          <Link
-            href="https://github.com/oishine/oi"
-            className="font-bold underline hover:text-gray-500 dark:hover:text-gray-400"
-          >
-            <div className="flex items-center">
-              <MdForkRight />
-              oishine/oi
-            </div>
-          </Link>
+          <div className="flex items-center">{"️<3 で作りました"}</div>
         </div>
       </div>
     </div>
