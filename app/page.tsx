@@ -69,7 +69,7 @@ export default function Page() {
       <div
         className={`w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] xl:max-w-[50vw] transition-opacity duration-1000 ease-in-out ${isLoaded ? "opacity-100" : "opacity-0"}`}
       >
-        <div className="grid grid-cols-3 gap-3 xs:grid-cols-4 sm:grid-cols-4 sm:gap-4 md:grid-cols-6 lg:grid-cols-8">
+        <div className="grid grid-cols-3 grid-flow-row-dense gap-3 xs:grid-cols-4 sm:grid-cols-4 sm:gap-4 md:grid-cols-6 lg:grid-cols-8">
           <div className="group aspect-square rounded-3xl bg-black p-2 transition-all duration-300 hover:scale-105 dark:bg-white dark:text-black sm:p-4 cursor-help">
             <div className="flex h-full items-center justify-center">
               <span className="text-2xl text-white dark:text-black font-serif transition-transform duration-300 group-hover:rotate-12 sm:text-4xl">
@@ -121,7 +121,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="col-span-3 md:aspect-[2/1] lg:aspect-[2/1] xl:aspect-[2/1] rounded-3xl bg-red-600 p-4 transition-all duration-300 hover:bg-red-700 hover:shadow-lg dark:bg-red-800 dark:hover:bg-red-900 xs:col-span-2 xs:row-span-2 xs:aspect-square sm:col-span-2">
+          <div className="col-span-3 rounded-3xl bg-red-600 p-4 transition-all duration-300 hover:bg-red-700 hover:shadow-lg dark:bg-red-800 dark:hover:bg-red-900 xs:col-span-2 xs:row-span-2 xs:aspect-square sm:col-span-2">
             <div className="h-full overflow-hidden text-white font-mono text-xs flex-grow overflow-y-auto xl:-mt-0 scrollbar-hide">
               the days of life pass away like clouds, so do good while you are
               alive.
@@ -129,10 +129,10 @@ export default function Page() {
           </div>
 
           <div className="relative aspect-square rounded-full bg-white transition-all duration-300 hover:scale-105 dark:bg-neutral-800 overflow-hidden">
-            <div className="absolute inset-1 flex items-center justify-center cursor-wait">
-              <div className="flex animate-bounce-marquee">
+            <div className="absolute inset-0 flex items-center justify-center cursor-wait">
+              <div className="flex w-max animate-bounce-marquee items-center text-black dark:text-white">
                 {[...icons, ...icons].map((Icon, index) => (
-                  <Icon key={index} className="text-5xl mx-20" />
+                  <Icon key={index} className="text-2xl mx-3 shrink-0 sm:text-3xl" />
                 ))}
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function Page() {
             </Link>
           </div>
 
-          <div className="col-span-3 md:w-50 sm:w-50 aspect-[4/1] rounded-full bg-black p-5 transition-all duration-300 hover:bg-neutral-800 hover:shadow-lg  dark:hover:bg-neutral-300 sm:p-4 xs:aspect-[3/1] hover:scale-105 cursor-grab dark:bg-white">
+          <div className="col-span-3 aspect-[4/1] rounded-full bg-black p-5 transition-all duration-300 hover:bg-neutral-800 hover:shadow-lg dark:hover:bg-neutral-300 sm:p-4 xs:aspect-[3/1] hover:scale-105 cursor-grab dark:bg-white">
             <div className="flex h-full w-full items-center justify-center">
               <span className="font-mono font-bold text-m text-pink-500 dark:text-pink-600">
                 {">"}

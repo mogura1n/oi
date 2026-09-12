@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
   darkMode: "class",
@@ -9,6 +10,15 @@ const config: Config = {
     "*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      // Custom small-phone breakpoint used throughout app/page.tsx (xs:*).
+      // It was missing before, so every `xs:` class in the grid was silently
+      // ignored and the layout jumped straight from the 3-col mobile grid to
+      // the 4-col `sm:` grid at 640px, skipping the intended reflow for
+      // small phones (~360-639px).
+      xs: "420px",
+      ...defaultTheme.screens,
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",

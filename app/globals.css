@@ -4,9 +4,11 @@
 
 @layer base {
     :root {
+        --background: 0 0% 90%;
         --foreground: 0 0% 3.9%;
     }
     .dark {
+        --background: 0 0% 9%;
         --foreground: 0 0% 98%;
     }
 }
@@ -22,25 +24,18 @@
 
 @layer components {
     @keyframes bounceMarquee {
-        0% {
-            transform: translateX(0%);
+        from {
+            transform: translateX(0);
         }
-        25% {
-            transform: translateX(25%);
-        }
-        50% {
-            transform: translateX(50%);
-        }
-        75% {
-            transform: translateX(25%);
-        }
-        100% {
-            transform: translateX(0%);
+        to {
+            /* Content is duplicated (icons + icons), so shifting by exactly
+               one copy's width loops seamlessly with no visible jump. */
+            transform: translateX(-50%);
         }
     }
 
     .animate-bounce-marquee {
-        animation: bounceMarquee 15s linear infinite;
+        animation: bounceMarquee 8s linear infinite;
     }
 
     .AccordionItem {
