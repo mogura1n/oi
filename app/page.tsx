@@ -140,7 +140,7 @@ export default function Page() {
 
           <div className="group aspect-square rounded-full bg-white p-2 transition-all duration-300 hover:scale-110 dark:bg-neutral-800 sm:p-4">
             <Link
-              href="https://x.com/letsmakeices"
+              href="https://x.com/xeroices"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -160,7 +160,7 @@ export default function Page() {
 
           <div className="group aspect-square rounded-full bg-black text-white hover:text-black hover:bg-white p-2 transition-all duration-300 hover:shadow-lg dark:bg-white dark:hover:bg-neutral-800 dark:hover:text-white dark:text-black sm:p-4">
             <Link
-              href="mailto:git@slce.moe"
+              href="mailto:slcee@proton.me"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -207,7 +207,7 @@ export default function Page() {
                 Icon: SiXdadevelopers,
                 link: "https://xdaforums.com/m/neroices.10996241",
               },
-              { Icon: LuGlobe, link: "https://slce.moe" },
+              { Icon: LuGlobe, link: "https://neroices.github.io" },
             ].map(({ Icon, link }, index) => (
               <a
                 key={index}
@@ -300,7 +300,7 @@ export default function Page() {
           </div>
         </div>
         <div className="mt-4 flex justify-between font-mono text-xs tracking-wider text-gray-800 transition-colors duration-300 dark:text-gray-200 sm:mt-8 sm:text-sm">
-          <span>&copy; 2025</span>
+          <span>&copy; 2025 - 2026</span>
           <div className="flex items-center">{"️<3 で作りました"}</div>
         </div>
       </div>
